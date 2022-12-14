@@ -376,7 +376,7 @@ figcaption {
   overflow: visible;
   background-image: url('../images/Pg-1_1.png');
   background-position: 100% 50%;
-  background-size: cover;
+  background-size: auto;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
@@ -386,7 +386,7 @@ figcaption {
   overflow: visible;
   background-image: url('../images/Pg-2.png');
   background-position: 100% 50%;
-  background-size: cover;
+  background-size: auto;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
@@ -395,7 +395,7 @@ figcaption {
   overflow: visible;
   background-image: url('../images/Pg-3.2.png');
   background-position: 100% 50%;
-  background-size: cover;
+  background-size: auto;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
@@ -404,7 +404,7 @@ figcaption {
   overflow: visible;
   background-image: url('../images/Pg-4.2.png');
   background-position: 100% 50%;
-  background-size: cover;
+  background-size: auto;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
@@ -413,7 +413,7 @@ figcaption {
   overflow: visible;
   background-image: url('../images/Pg-5.2.png');
   background-position: 100% 50%;
-  background-size: cover;
+  background-size: auto;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
@@ -422,7 +422,7 @@ figcaption {
   overflow: visible;
   background-image: url('../images/Pg-6.2.png');
   background-position: 100% 50%;
-  background-size: cover;
+  background-size: auto;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
@@ -431,7 +431,7 @@ figcaption {
   overflow: visible;
   background-image: url('../images/Pg-7.png ');
   background-position: 100% 50%;
-  background-size: cover;
+  background-size: auto;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
@@ -440,7 +440,7 @@ figcaption {
   overflow: visible;
   background-image: url('../images/Pg-8.png ');
   background-position: 100% 50%;
-  background-size: cover;
+  background-size: auto;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
@@ -449,7 +449,7 @@ figcaption {
   overflow: visible;
   background-image: url('../images/Back-Cover-2.png');
   background-position: 100% 50%;
-  background-size: cover;
+  background-size: auto;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
@@ -2039,6 +2039,7 @@ html.w-mod-js *[data-ix="load-up"] {
     -webkit-flex: 0 auto;
     -ms-flex: 0 auto;
     flex: 0 auto;
+    background-size: cover;
   }
 
   .column.about {
